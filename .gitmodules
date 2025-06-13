@@ -1,0 +1,3 @@
+[submodule "external/nalu_event_collector"]
+	path = external/nalu_event_collector
+	url = https://github.com/jaca230/nalu_event_collector
