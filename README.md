@@ -1,6 +1,6 @@
 # nalu_fake_data_generator
 
-A modular C++ library for simulating hardware-like event data streams, modeled after the data format used in the NaluEventCollector system. This generator is intended for testing pipelines, backend services, and data visualization tools without requiring access to real hardware.
+A modular C++ library for simulating hardware-like event data streams, modeled after the data format used in the [NaluEventCollector](https://github.com/jaca230/nalu_event_collector) system. This generator is intended for testing pipelines, backend services, and data visualization tools without requiring access to real hardware.
 
 ---
 
