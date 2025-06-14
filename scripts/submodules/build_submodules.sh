@@ -14,11 +14,12 @@ show_help() {
   echo "Usage: ./build_submodules.sh [OPTIONS]"
   echo ""
   echo "Options:"
-  echo "  -o, --overwrite         Clean existing builds"
-  echo "  -j, --jobs <number>     Number of cores to use (default: all)"
-  echo "  -h, --help              Show this message"
+  echo "  -o, --overwrite              Clean existing builds"
+  echo "  -r, --recursive-overwrite    Clean and rebuild submodules recursively"
+  echo "  -j, --jobs <number>          Number of cores to use (default: all)"
+  echo "  -h, --help                   Show this message"
   echo ""
-  echo "All options will be forwarded to each submodule’s build script."
+  echo "All options are forwarded to each submodule’s build script."
 }
 
 # Show help if requested
