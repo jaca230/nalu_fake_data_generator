@@ -1,4 +1,4 @@
-#include "nalu_fake_data_generator.h"
+#include "generator/nalu_fake_data_generator.h"
 #include <iostream>
 #include <iomanip>
 #include <chrono>

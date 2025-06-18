@@ -1,4 +1,4 @@
-#include "nalu_fake_data_generator_config.h"
+#include "config/nalu_fake_data_generator_config.h"
 #include <vector>
 
 std::vector<int> NaluFakeDataGeneratorConfig::active_channels() const {

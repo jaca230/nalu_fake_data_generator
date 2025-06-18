@@ -3,7 +3,7 @@
 
 #include "nalu_event.h"
 #include "nalu_collector_timing_data.h"
-#include "nalu_fake_data_generator_config.h"
+#include "config/nalu_fake_data_generator_config.h"
 #include <memory>
 #include <random>
 #include <cstdint>
