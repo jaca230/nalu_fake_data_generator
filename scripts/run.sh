@@ -3,7 +3,7 @@
 # Get the absolute path of the script directory
 SCRIPT_DIR=$(dirname "$(realpath "$0")")
 BASE_DIR="$SCRIPT_DIR/.."
-EXECUTABLE="$BASE_DIR/bin/nalu_fdg_main"
+EXECUTABLE="$BASE_DIR/build/nalu_fdg_main"
 
 # Variables for options
 PRELOAD_LIBS=""
